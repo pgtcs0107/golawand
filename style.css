@@ -1578,6 +1578,23 @@ ul {
 /* ------------------------------------
     04. Sticky Menu
 ---------------------------------------*/
+
+#new_tag{
+position: absolute;
+    top: -7px;
+    right: 15px;
+    padding: 5px 10px;
+    border-radius: 10%;
+    background-color: red;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+#new_tag{
+    top: 0px;
+    right: 66%;
+}
+}
 .menu-sticky.sticky {
   background: #111111;
   position: fixed !important;
