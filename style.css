@@ -1594,6 +1594,9 @@ position: absolute;
     top: 0px;
     right: 66%;
 }
+.menu-sticky.sticky {
+     padding: 0px;
+}
 }
 .menu-sticky.sticky {
   background: #111111;
