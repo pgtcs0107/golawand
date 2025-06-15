@@ -446,6 +446,16 @@ Admission &raquo;</a>
             <i class="fa fa-angle-up"></i>
         </div>
 
+	    <div class="modal hide fade" id="myModal">
+  <div class="modal-header">
+    <a class="close" data-dismiss="modal">×</a>
+  </div>
+  <div class="modal-body">
+    <img src="images/Updated_circular.png">
+  </div>
+  
+</div>
+
         
         <!-- modernizr js -->
         <script src="bootstrap-4.0.0-dist/js/home.js"></script>
@@ -478,8 +488,12 @@ Admission &raquo;</a>
 		 <!-- main js -->
         <script src="bootstrap-4.0.0-dist/js/main.js"></script>
 
-	    <script>
-window.onload(alert('<img src="images/Updated_circular.png">'););
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#myModal').modal('show');
+    });
 </script>
+	    
+	 
     </body>
 </html>
